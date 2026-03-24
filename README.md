@@ -64,14 +64,13 @@ proxy-groups:
 rules:
  - MATCH,PROXY
 ```
-13. 
-14. Запускаем  Clash.for.Windows, переходим на вкладку profiles(1), нажимаем на import(2) и импортируем файл Global (3)
-![Sample image](RandomIP\img\1.png)
-15. Кликаем по импортированному конфигу Global, чтобы он загорелся зеленым
-16. Переходим во вкладку Proxies и выбираем Tor
-![Sample image](RandomIP\img\2.png)
-17. Далее переходим в RandomIP\tor-expert-bundle-windows-x86_64-15.0.7\tor и создаем файл .py с названием rotator
-18. В файл rotator.py вставляем следующий код и подставляем свои значения, где указаны комментарии
+13. Запускаем  Clash.for.Windows, переходим на вкладку profiles(1), нажимаем на import(2) и импортируем файл Global (3)
+![Sample image](img\1.png)
+14. Кликаем по импортированному конфигу Global, чтобы он загорелся зеленым
+15. Переходим во вкладку Proxies и выбираем Tor
+![Sample image](img\2.png)
+16. Далее переходим в RandomIP\tor-expert-bundle-windows-x86_64-15.0.7\tor и создаем файл .py с названием rotator
+17. В файл rotator.py вставляем следующий код и подставляем свои значения, где указаны комментарии
 ```python
 import subprocess
 import time
@@ -257,5 +256,5 @@ change_ip()
  
 root.mainloop()
 ```
-19. Запускаем rotator.py 
+18. Запускаем rotator.py 
 
